@@ -11,6 +11,7 @@ void addNode(struct Node** head, int newData) {
     newNode->next = *head;
     *head = newNode;
 }
+//request
 
 void printList(struct Node* node) {
     while (node != NULL) {
