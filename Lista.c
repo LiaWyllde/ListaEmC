@@ -1,3 +1,6 @@
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 struct Node {
     int data;
@@ -29,5 +32,6 @@ int main() {
 
     // Imprimindo a lista
     printList(head);
+    system("PAUSE");
     return 0;
 }
